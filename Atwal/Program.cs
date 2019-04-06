@@ -43,6 +43,7 @@ namespace Atwal
                 file.Close();
                 counter = File.ReadLines("U:/Users/730069.STUDENT/Downloads/beowulf.txt").Count();
                 Console.WriteLine($"File has {counter } lines.");
+                Console.WriteLine($"File has {counter * 10 } words.");
 
             }
         }
